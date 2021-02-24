@@ -1,0 +1,89 @@
+{
+    "id": "ef1d2607-6ec0-4234-037a-08d8b1b54674",
+    "secuencial": 1006,
+    "cliente": {
+        "id": "511d6c76-8e80-4fa4-cc03-08d866511f3d",
+        "rut": "18.333.111.9",
+        "razonSocial": "Javier",
+        "fechaDeCreacion": "2020-10-01T21:29:47.3400038",
+        "vigente": false
+    },
+    "estado": {
+        "id": "d1eb4843-f5ce-4db5-a989-23456e36786a",
+        "estadoPedido": "Nuevo"
+    },
+    "total": 69020.0,
+    "detallePedidos": [{
+            "id": "77e68b07-4506-4773-7144-08d8b1b54674",
+            "producto": {
+                "id": "41afcfde-5190-46f9-2d9b-08d8b1b2fe7b",
+                "codigo": "333444",
+                "nombre": "lapiz",
+                "descripcion": null,
+                "precio": 1000.0,
+                "fechaDeCreacion": "0001-01-01T00:00:00",
+                "vigente": true
+            },
+            "cantidad": 1,
+            "fechaDeCreacion": "2020-12-14T03:50:37.2207005"
+        },
+        {
+            "id": "b8beb61b-e69e-4a0b-7145-08d8b1b54674",
+            "producto": {
+                "id": "613220ea-db9f-4230-9307-08d889054158",
+                "codigo": "12233",
+                "nombre": "Prueba2",
+                "descripcion": "es una Prueba2",
+                "precio": 15000.0,
+                "fechaDeCreacion": "0001-01-01T00:00:00",
+                "vigente": true
+            },
+            "cantidad": 2,
+            "fechaDeCreacion": "2020-12-14T03:50:37.2207249"
+        },
+        {
+            "id": "269a7673-1219-4307-7146-08d8b1b54674",
+            "producto": {
+                "id": "613220ea-db9f-4230-9307-08d889054158",
+                "codigo": "12233",
+                "nombre": "Prueba2",
+                "descripcion": "es una Prueba2",
+                "precio": 15000.0,
+                "fechaDeCreacion": "0001-01-01T00:00:00",
+                "vigente": true
+            },
+            "cantidad": 2,
+            "fechaDeCreacion": "2020-12-14T03:50:37.2207249"
+        },
+        {
+            "id": "125378de-848d-4fad-7147-08d8b1b54674",
+            "producto": {
+                "id": "bd155eaf-8ffd-420e-2d9a-08d8b1b2fe7b",
+                "codigo": "2244455",
+                "nombre": "silla",
+                "descripcion": null,
+                "precio": 3000.0,
+                "fechaDeCreacion": "0001-01-01T00:00:00",
+                "vigente": false
+            },
+            "cantidad": 3,
+            "fechaDeCreacion": "2020-12-14T03:50:37.2207005"
+        },
+        {
+            "id": "340f043f-4ebb-4ba7-7148-08d8b1b54674",
+            "producto": {
+                "id": "41afcfde-5190-46f9-2d9b-08d8b1b2fe7b",
+                "codigo": "333444",
+                "nombre": "lapiz",
+                "descripcion": null,
+                "precio": 1000.0,
+                "fechaDeCreacion": "0001-01-01T00:00:00",
+                "vigente": true
+            },
+            "cantidad": 4,
+            "fechaDeCreacion": "2021-01-05T20:05:40.1856608"
+        }
+    ],
+    "fechaDeCreacion": "2020-12-14T03:50:37.2205786",
+    "observaciones": "holaholahola"
+}

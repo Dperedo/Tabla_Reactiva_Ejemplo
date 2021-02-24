@@ -1,0 +1,37 @@
+[{
+        "id": "613220ea-db9f-4230-9307-08d889054158",
+        "codigo": "12233",
+        "nombre": "Prueba2",
+        "descripcion": "es una Prueba2",
+        "precio": 15000.0,
+        "fechaDeCreacion": "0001-01-01T00:00:00",
+        "vigente": true
+    },
+    {
+        "id": "8df6c410-d8d9-4403-9308-08d889054158",
+        "codigo": "12244",
+        "nombre": "mesa",
+        "descripcion": "es una Mesa",
+        "precio": 7000.0,
+        "fechaDeCreacion": "0001-01-01T00:00:00",
+        "vigente": true
+    },
+    {
+        "id": "bd155eaf-8ffd-420e-2d9a-08d8b1b2fe7b",
+        "codigo": "2244455",
+        "nombre": "silla",
+        "descripcion": null,
+        "precio": 3000.0,
+        "fechaDeCreacion": "0001-01-01T00:00:00",
+        "vigente": false
+    },
+    {
+        "id": "41afcfde-5190-46f9-2d9b-08d8b1b2fe7b",
+        "codigo": "333444",
+        "nombre": "lapiz",
+        "descripcion": null,
+        "precio": 1000.0,
+        "fechaDeCreacion": "0001-01-01T00:00:00",
+        "vigente": true
+    }
+]
