@@ -56,6 +56,11 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  cambiaComboProducto(i: number)
+  {
+    //this.forma.value.detallePedidos[i].producto = this.
+  }
+
   calcularTotal()
   {
     // this.extraerProducto(i);
@@ -82,7 +87,7 @@ export class AppComponent implements OnInit {
     this.forma.value.detallePedidos[i].cantidad === '')
     {
       this.subtotal[i] = 0;
-      // console.log('true');
+      console.log('indefinido en producto');
     } else {
       this.subtotal[i] = this.forma.value.detallePedidos[i].producto.precio * this.forma.value.detallePedidos[i].cantidad;
       // console.log('false');

@@ -14,19 +14,19 @@
                 </tr>
             </thead>
 
-            <tbody *ngFor="let producto of detallePedidosControls; let i = index" formArrayName="detallePedidos">
+            <tbody *ngFor="let detalle of detallePedidosControls; let i = index" formArrayName="detallePedidos">
                 <tr [formGroupName]="i">
 
                     <td>{{i+1}}</td>
-
                     <td>
-                        <select class="form-control" name="productoSelect" formControlName="producto" (blur)="calcularTotal()">
+                    <select class="form-control" name="productoSelect" formControlName="producto" (blur)="calcularTotal()" (change)="cambiaComboProducto(i)">
                     <option value="">Seleccione un Producto</option>
                     <option *ngFor="let produ of productoslistado; let p = index"
-                    [selected]="forma.value.detallePedidos[i].producto.id === produ.id" value="{{produ.id}}" >{{produ.nombre}}</option>
+                    [ngSelected]="forma.value.detallePedidos[i].producto.id === produ.id" [ngValue]="produ" >{{produ.nombre}}</option>
                     </select>
                         <small *ngIf="getValidarProducto(i)" class="text-danger">Seleccione un Producto</small>
                     </td>
+                    <!-- [ng-Value]="produ.id" -->
                     <td>
                         {{forma.value.detallePedidos[i].producto.nombre}}
                     </td>
